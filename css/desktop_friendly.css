@@ -1,11 +1,3 @@
-/*
-Template Name: Meghna Responsive HTML5/CSS3 Business Template
-Author: Themefisher
-Author URI: www.Themefisher.com
-Description: Meghna Responsive HTML5/CSS3 Portfolio Template
-Version: 1.0
-Tags: one-page, single-page, portfolio, custom-colors, post-formats, responsive, html5, css3
-*/
 /*=== MEDIA QUERY ===*/
 
 @import url("https://fonts.googleapis.com/css?family=Anaheim|Quattrocento+Sans:400,700");
@@ -844,8 +836,6 @@ div.maintitleblue h1 > span.color{
 /*=================================================================
   About us 2 section
 ==================================================================*/
-#about{ 
-}
 
 #Lewis {
   margin-top: 20px;
@@ -1057,97 +1047,14 @@ div.maintitleblue h1 > span.color{
   margin: 0;
 }
 
-.fan-base { 
+.no-of-projects { 
   height: 50px;
   width: 50px;
   margin-left: 105px; 
-}
-
-.gigs { 
-  height: 50px;
-  width: 50px;
-  margin-left: 105px; 
-}
-
-.festival {
-  height: 50px;
-  width: 50px;
-  margin-left: 105px; 
-}
-
-.radio {
-  height: 50px;
-  width: 50px;
-  margin-left: 105px; 
-}
-
-.single {
-  height: 50px;
-  width: 50px;
-  margin-left: 105px; 
-}
-
-.ep {
-  height: 50px;
-  width: 50px;
-  margin-left: 105px; 
-}
-
-.album {
-  height: 50px;
-  width: 50px;
-  margin-left: 105px; 
-}
-/*=================================================================
-  Pricing section
-==================================================================*/
-.price-item {
-  border: 1px solid rgba(236, 239, 241, 0.07);
-  padding-bottom: 30px;
-  margin-bottom: 15px;
-}
-
-.price-title {
-  background-color: #292F36;
-  padding: 30px 0 20px;
-}
-
-.price-title h3 {
-  color: #57cbcc;
-  margin: 0 0 10px;
-  text-transform: uppercase;
-}
-
-.price-title p {
-  font-size: 18px;
-  font-weight: 400;
-}
-
-.price-title .value {
-  color: #57cbcc;
-  font-size: 30px;
-}
-
-.pricing li {
-  padding: 10px 0;
-}
-
-.pricing li:last-child {
-  border-bottom: 1px solid rgba(236, 239, 241, 0.07);
-  margin-bottom: 20px;
-}
-
-.pricing li:nth-child(2n) {
-  background-color: #292F36;
-}
-
-.pricing li .btn {
-  text-transform: uppercase;
-  margin: 20px 0;
 }
 
 /*=================================================================
-  Merchendise section
+Project section
 ==================================================================*/
 .portfolio-filter {
   margin-bottom: 40px;
@@ -1257,7 +1164,7 @@ div.maintitleblue h1 > span.color{
 }
 
 /*=================================================================
-  Services section
+  No. of projects section section
 ==================================================================*/
 .service-block {
   padding: 60px 20px;
@@ -1272,7 +1179,7 @@ div.maintitleblue h1 > span.color{
   border-left: 1px solid rgba(236, 239, 241, 0.07);
   border-top: 1px solid rgba(236, 239, 241, 0.07);
   margin-bottom: 40px;
-  margin-top: -505px;
+  margin-top: -488px;
   box-shadow: 2px 2px 5px rgba(44, 44, 44, 0.3), 13px 13px 0 rgba(255, 255, 255, 0.7);
 }
 
@@ -1281,7 +1188,7 @@ div.maintitleblue h1 > span.color{
   border-left: 1px solid rgba(236, 239, 241, 0.07);
   border-top: 1px solid rgba(236, 239, 241, 0.07);
   margin-bottom: 40px;
-  margin-top: -505px;
+  margin-top: -488px;
   box-shadow: 2px 2px 5px rgba(44, 44, 44, 0.3), 13px 13px 0 rgba(255, 255, 255, 0.7);
 }
 
@@ -1290,7 +1197,7 @@ div.maintitleblue h1 > span.color{
   border-left: 1px solid rgba(236, 239, 241, 0.07);
   border-top: 1px solid rgba(236, 239, 241, 0.07);
   margin-bottom: 40px;
-  margin-top: 180px;
+  margin-top: 160px;
   box-shadow: 2px 2px 5px rgba(44, 44, 44, 0.3), 13px 13px 0 rgba(255, 255, 255, 0.7);
 }
 
@@ -1299,53 +1206,13 @@ div.maintitleblue h1 > span.color{
   font-size: 50px;
 }
 
-/*=================================================================
-  Services section 2
-==================================================================*/
-.service-2 .service-item {
-  border: 1px solid #eee;
-  margin-bottom: 30px;
-  padding: 50px 20px;
-  transition: all 0.3s ease 0s;
+.Projects-link {
+  color: grey;
 }
 
-.service-2 .service-item:hover {
-  box-shadow: 0 5px 65px 0 rgba(0, 0, 0, 0.15);
-  -webkit-box-shadow: 0 5px 65px 0 rgba(0, 0, 0, 0.15);
-}
-
-.service-2 .service-item:hover i {
-  background: #fff;
-  color: #57cbcc;
-}
-
-.service-2 .service-item i {
-  font-size: 30px;
-  display: inline-block;
-  background: #57cbcc none repeat scroll 0 0;
-  border-radius: 30px;
-  box-shadow: 0 5px 6px 0 rgba(0, 0, 0, 0.1);
-  color: #fff;
-  height: 55px;
-  line-height: 55px;
-  margin-bottom: 20px;
-  width: 55px;
-  transition: all 0.3s ease 0s;
-}
-
-.ticket-link{
-  color: white; 
-  font-family: "Georgia"
-}
-
-.ticket-link:hover { 
+.Projects-link:hover{
   color: greenyellow;
 }
-
-.tickets-para p{ 
-  font-family: "Georgia";
-}
-
 /*=================================================================
   The band
 ==================================================================*/
@@ -1443,243 +1310,6 @@ div.maintitleblue h1 > span.color{
 
 .member-meta span {
   font-size: 12px;
-}
-
-/*=================================================================
-  Latest Posts
-==================================================================*/
-.note {
-  background-color: #292F36;
-  border: 1px solid #4e595f;
-}
-
-.post-block {
-  background-color: #292F36;
-  margin-bottom: 10px;
-}
-
-.post-block .content {
-  padding: 20px;
-}
-
-.post-block .content h3 {
-  margin: 0 0 6px;
-  font-size: 20px;
-  line-height: 1.5;
-  text-transform: capitalize;
-}
-
-.note .media-wrapper {
-  border-bottom: 1px solid #4e595f;
-}
-
-.note .excerpt h3 {
-  font-size: 20px;
-  line-height: 1.5;
-  text-transform: capitalize;
-}
-
-.all-post {
-  margin-top: 50px;
-}
-
-.btn.btn-main { 
-  background-color: greenyellow;
-}
-
-.btn.btn-main:hover{ 
-  background-color: #ffffff;
-}
-
-.all-post.text-center a:hover{
-  color: black;
-}
-
-#blog-border{
-  margin-bottom: 60px; 
-}
-
-/*=================================================================
-  Single Blog Page
-==================================================================*/
-#blog-banner {
-  padding-bottom: 100px;
-  padding-top: 150px;
-}
-
-#blog-page {
-  margin: 0 0 40px;
-}
-
-.post-meta {
-  font-size: 13px;
-  margin: 20px 0 0;
-  padding: 0 20px 10px;
-}
-
-.post-meta a {
-  color: #57cbcc;
-}
-
-.post-meta > span {
-  color: #666;
-  border-right: 1px solid #dedede;
-  display: inline-block;
-  font-size: 13px;
-  margin: 10px 10px 0 0;
-  padding-right: 10px;
-}
-
-.post-meta > span:last-child {
-  border-right: 0;
-}
-
-.post-meta > span i {
-  margin-right: 5px;
-}
-
-.post-excerpt {
-  padding: 0 20px;
-  margin-bottom: 60px;
-}
-
-.post-excerpt h3 a {
-  color: #000;
-}
-
-.post-excerpt blockquote {
-  line-height: 22px;
-  margin: 20px 0;
-  font-size: 16px;
-}
-
-.single-blog {
-  background-color: #fff;
-  margin-bottom: 50px;
-  padding: 20px;
-}
-
-.blog-subtitle {
-  font-size: 15px;
-  padding-bottom: 10px;
-  border-bottom: 1px solid #dedede;
-  margin-bottom: 25px;
-  text-transform: uppercase;
-}
-
-.next-prev {
-  border-bottom: 1px solid #dedede;
-  border-top: 1px solid #dedede;
-  margin: 20px 0;
-  padding: 25px 0;
-}
-
-.next-prev a {
-  color: #000;
-}
-
-.next-prev a:hover {
-  color: #57cbcc;
-}
-
-.next-prev .prev-post i {
-  margin-right: 10px;
-}
-
-.next-prev .next-post i {
-  margin-left: 10px;
-}
-
-.social-profile ul li {
-  margin: 0 10px 0 0;
-  display: inline-block;
-}
-
-.social-profile ul li a {
-  color: #4e595f;
-  display: block;
-  font-size: 16px;
-}
-
-.social-profile ul li a i:hover {
-  color: #57cbcc;
-}
-
-.comments-section {
-  margin-top: 35px;
-}
-
-.author-about {
-  margin-top: 40px;
-}
-
-.post-author {
-  margin-right: 20px;
-}
-
-.post-author > img {
-  border: 1px solid #dedede;
-  max-width: 120px;
-  padding: 5px;
-  width: 100%;
-}
-
-.comment-list ul {
-  margin-top: 20px;
-}
-
-.comment-list ul li {
-  margin-bottom: 20px;
-}
-
-.comment-wrap {
-  border: 1px solid #dedede;
-  border-radius: 1px;
-  margin-left: 20px;
-  padding: 10px;
-  position: relative;
-}
-
-.comment-wrap .author-avatar {
-  margin-right: 10px;
-}
-
-.comment-wrap .media .media-heading {
-  font-size: 14px;
-  margin-bottom: 8px;
-}
-
-.comment-wrap .media .media-heading a {
-  color: #57cbcc;
-  font-size: 13px;
-}
-
-.comment-wrap .media .comment-meta {
-  font-size: 12px;
-  color: #888;
-}
-
-.comment-wrap .media p {
-  margin-top: 15px;
-}
-
-.comment-reply-form {
-  margin-top: 80px;
-}
-
-.comment-reply-form input, .comment-reply-form textarea {
-  height: 35px;
-  border-radius: 0;
-  box-shadow: none;
-}
-
-.comment-reply-form input:focus, .comment-reply-form textarea:focus {
-  box-shadow: none;
-  border: 1px solid #57cbcc;
-}
-
-.comment-reply-form textarea, .comment-reply-form .btn-main {
-  height: auto;
 }
 
 /*=================================================================
