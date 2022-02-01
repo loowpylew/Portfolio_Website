@@ -7,6 +7,11 @@
   src: url(/fonts/LLPIXEL3.ttf);
 }
 
+@font-face {
+  font-family: 'd';
+  src: url(/fonts/Comforter-Regular.ttf);
+}
+
 html {
   background-color: #353b43;
   color: #737f8a;
@@ -27,7 +32,7 @@ h5,
 h6 {
   letter-spacing: 4px;
   font-weight: 400;
-  font-family: 'llpixel';
+  font-family: 'd';
   color: white;
 }
 
