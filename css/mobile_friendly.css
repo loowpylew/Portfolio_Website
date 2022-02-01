@@ -3,20 +3,32 @@
 @import url("https://fonts.googleapis.com/css?family=Anaheim|Quattrocento+Sans:400,700");
 @import url("https://fonts.googleapis.com/css?family=Montserrat:400,700|Open+Sans:300,400,600");
 @font-face {
-  font-family: 'llpixel';
-  src: url('/fonts/LLPIXEL3.ttf');
+    font-family: 'llpixel';
+    src:url('../fonts/LLPIXEL.eot');
+    src:url('../fonts/LLPIXEL.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/LLPIXEL.woff') format('woff'),
+        url('../fonts/LLPIXEL.ttf') format('truetype'),
+        url('../fonts/LLPIXEL.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
 }
 
 html {
   background-color: #353b43;
   color: #737f8a;
+  margin: 0px; 
+  padding: 0px; 
+  overflow-x: hidden; 
 }
 
 body {
   background-color: #353b43;
-  font-family: "Anaheim", sans-serif;
+  font-family: "Anaheim", "sans-serif";
   color: #737f8a;
   -webkit-font-smoothing: antialiased;
+  margin: 0px; 
+  padding: 0px; 
+  overflow-x: hidden; 
 }
 
 h1,
@@ -33,7 +45,7 @@ h6 {
 
 p {
   letter-spacing: 2px;
-  font-family: ;
+  font-family: "";
 }
 
 /*=================================================================
@@ -657,7 +669,6 @@ div.contact-us-sub-title h2 > span.color{
   justify-content: center;
   align-items: center;
   overflow: hidden;
-  
 }
 
 .hero-area .block {
@@ -678,20 +689,16 @@ div.contact-us-sub-title h2 > span.color{
 }
 
 .hero-area .block h1 {
-  font-size: 150px;
+  font-size: 50px;
   color: #fff;
   text-transform: capitalize;
-  font-weight: 700;
+  font-weight: 500;
   margin-bottom: 20px;
   color: white;
 }
 
-div.maintitleblue h1 > span.color{
+div.maintitle h1 > span.color{
   color: greenyellow;
-}
-
-.maintitleblue {
-  letter-spacing: 2px;
 }
 
 @media (max-width: 480px) {
@@ -1214,7 +1221,7 @@ Project section
   color: greenyellow;
 }
 /*=================================================================
-  The band
+  Education section 
 ==================================================================*/
 
 
@@ -1310,6 +1317,15 @@ Project section
 
 .member-meta span {
   font-size: 12px;
+}
+
+.col-md-6.Education_3 { 
+  margin-left: -1180px;
+  margin-top: 800px; 
+}
+
+.col-md-6.Education_4 { 
+  margin-top: 400px; 
 }
 
 /*=================================================================
@@ -1415,6 +1431,8 @@ Project section
   font-family: Georgia;
   color: lightgray;
 }
+
+
 
 
 
