@@ -39,7 +39,7 @@ h6 {
 
 p {
   letter-spacing: 2px;
-  font-family: "llpixel";
+  font-family: "";
 }
 
 /*=================================================================
@@ -1220,7 +1220,7 @@ Project section
   color: greenyellow;
 }
 /*=================================================================
-  The band
+  Education section 
 ==================================================================*/
 
 
@@ -1316,6 +1316,15 @@ Project section
 
 .member-meta span {
   font-size: 12px;
+}
+
+.col-md-6.Education_3 { 
+  margin-left: -1180px;
+  margin-top: 800px; 
+}
+
+.col-md-6.Education_4 { 
+  margin-top: 400px; 
 }
 
 /*=================================================================
