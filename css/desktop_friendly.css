@@ -4,12 +4,7 @@
 @import url("https://fonts.googleapis.com/css?family=Montserrat:400,700|Open+Sans:300,400,600");
 @font-face {
   font-family: 'llpixel';
-  src: url(/fonts/LLPIXEL3.ttf),
-  src: url(/fonts/LLPIXEL3.eot?#iefix) format('embedded-opentype'),
-       url(/fonts/LLPIXEL3.eot),
-       url(/fonts/LLPIXEL3.woff) format('woff'), 
-       url(/fonts/LLPIXEL3.ttf)  format('truetype'),
-       url(/fonts/LLPIXEL3.svg#svgFontName) format('svg');
+  src: url(/fonts/LLPIXEL3.ttf);
 }
 
 html {
