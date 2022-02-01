@@ -3,8 +3,14 @@
 @import url("https://fonts.googleapis.com/css?family=Anaheim|Quattrocento+Sans:400,700");
 @import url("https://fonts.googleapis.com/css?family=Montserrat:400,700|Open+Sans:300,400,600");
 @font-face {
-  font-family: 'llpixel';
-  src: url('/fonts/LLPIXEL.ttf');
+    font-family: 'llpixel';
+    src:url('fonts/LLPIXEL.eot');
+    src:url('fonts/LLPIXEL.eot?#iefix') format('embedded-opentype'),
+        url('fonts/LLPIXEL.woff') format('woff'),
+        url('fonts/LLPIXEL.ttf') format('truetype'),
+        url('fonts/LLPIXEL.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
 }
 
 html {
