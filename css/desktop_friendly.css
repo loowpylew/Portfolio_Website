@@ -3,13 +3,8 @@
 @import url("https://fonts.googleapis.com/css?family=Anaheim|Quattrocento+Sans:400,700");
 @import url("https://fonts.googleapis.com/css?family=Montserrat:400,700|Open+Sans:300,400,600");
 @font-face {
-  font-family: 'llpixel';
+  font-family: 'LLPixel';
   src: url(/fonts/LLPIXEL3.ttf);
-}
-
-@font-face {
-  font-family: 'd';
-  src: url(/fonts/Comforter-Regular.ttf);
 }
 
 html {
@@ -32,7 +27,7 @@ h5,
 h6 {
   letter-spacing: 4px;
   font-weight: 400;
-  font-family: 'd';
+  font-family: 'LLPixel';
   color: white;
 }
 
