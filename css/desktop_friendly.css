@@ -39,6 +39,7 @@ h6 {
 
 p {
   letter-spacing: 2px;
+  font-family: "";
 }
 
 /*=================================================================
@@ -683,6 +684,7 @@ div.contact-us-sub-title h2 > span.color{
 }
 
 .hero-area .block h1 {
+  font-size: 150px;
   color: #fff;
   text-transform: capitalize;
   font-weight: 500;
@@ -694,8 +696,7 @@ div.maintitle h1 > span.color{
   color: greenyellow;
 }
 
-.hero-area .block .maintitle h1{
-  font-size: 50px;
+.maintitle {
   letter-spacing: 2px;
 }
 
@@ -705,9 +706,9 @@ div.maintitle h1 > span.color{
   }
 }
 
-.hero-area .block p{
+.hero-area .block p {
   color: rgb(189, 185, 185);
-  font-size: 10px;
+  font-size: 30px;
   width: 70%;
   margin: 0 auto;
 }
