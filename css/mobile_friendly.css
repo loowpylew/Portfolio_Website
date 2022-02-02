@@ -843,7 +843,6 @@ div.maintitle h1 > span.color{
 .future-para p{ 
   font-family: "Gorgia";
 }
-
 /*=================================================================
   About us 2 section
 ==================================================================*/
@@ -859,55 +858,18 @@ div.maintitle h1 > span.color{
   margin-bottom: 20px;
 }
 
-.col-md-6.padding-0 > img{
-  width: 800px;
-  height: 800px; 
-  margin-top: -150px; 
-  margin-left: 50px;
+.media.future-ideas .pull-left > img{
+  margin-left: 110px; 
+  
 }
 
-.about-2 .content-block {
-  padding: 40px;
-  margin-left: -70px;
-}
-
-.about-2 .content-block p{
-  font-family: "Georgia";
-  margin-top: 10px;
-}
-
-.col-md-6{
-  margin-top: 20px;
+.media-body.future-ideas > h4 {
   margin-left: 0px;
+  
 }
-
-.col-md-6-2{
-  margin-left: -100px; 
-  margin-right: 100px; 
-  margin-top: 18px; 
-}
-
-.about-2 .content-block .media {
-  margin-top: 25px;
-  margin-left: -40px; 
-}
-
-.about-2 .content-block .media .pull-left {
-  padding-right: 15px;
-}
-
-.about-2 .content-block .media .pull-left > img {
-  margin-top: -5px;
-}
-
-.about-2 .content-block .media i {
-  font-size: 30px;
-  color: #455de0e3;
-}
-
-.about-2 .content-block .media h4 {
-  font-size: 20px;
-  font-weight: 200;
+.media-body.future-ideas > p{ 
+  margin-left: 0px;
+  
 }
 
 
@@ -1036,6 +998,7 @@ div.maintitle h1 > span.color{
 ==================================================================*/
 .counters-item {
   padding: 25px 0;
+  margin-right: 110px;
   margin-bottom: 10px;
   background: #292F36;
 }
@@ -1061,7 +1024,7 @@ div.maintitle h1 > span.color{
 .no-of-projects { 
   height: 50px;
   width: 50px;
-  margin-left: 105px; 
+  margin-left: 100px; 
 }
 
 /*=================================================================
@@ -1174,6 +1137,10 @@ Project section
   line-height: 50px;
 }
 
+.row.filtr-container {
+  margin-left: 1px; 
+}
+
 /*=================================================================
   No. of projects section section
 ==================================================================*/
@@ -1190,7 +1157,7 @@ Project section
   border-left: 1px solid rgba(236, 239, 241, 0.07);
   border-top: 1px solid rgba(236, 239, 241, 0.07);
   margin-bottom: 40px;
-  margin-top: -488px;
+  margin-top: 0px;
   box-shadow: 2px 2px 5px rgba(44, 44, 44, 0.3), 13px 13px 0 rgba(255, 255, 255, 0.7);
 }
 
@@ -1199,7 +1166,7 @@ Project section
   border-left: 1px solid rgba(236, 239, 241, 0.07);
   border-top: 1px solid rgba(236, 239, 241, 0.07);
   margin-bottom: 40px;
-  margin-top: -488px;
+  margin-top: 0px;
   box-shadow: 2px 2px 5px rgba(44, 44, 44, 0.3), 13px 13px 0 rgba(255, 255, 255, 0.7);
 }
 
@@ -1208,7 +1175,7 @@ Project section
   border-left: 1px solid rgba(236, 239, 241, 0.07);
   border-top: 1px solid rgba(236, 239, 241, 0.07);
   margin-bottom: 40px;
-  margin-top: 160px;
+  margin-top: 0px;
   box-shadow: 2px 2px 5px rgba(44, 44, 44, 0.3), 13px 13px 0 rgba(255, 255, 255, 0.7);
 }
 
@@ -1232,6 +1199,8 @@ Project section
 .team-member {
   background-color: #292F36;
   margin-bottom: 10px;
+  margin-left: -360px;
+  margin-right: 360px;
 }
 
 .col-md-3.col-sm-6.col-xs-12.wow.fadeInDown{
