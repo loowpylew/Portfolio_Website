@@ -1024,7 +1024,7 @@ div.maintitle h1 > span.color{
 .no-of-projects { 
   height: 50px;
   width: 50px;
-  margin-left: 90px; 
+  margin-left: 90px;
 }
 
 /*=================================================================
@@ -1292,13 +1292,28 @@ Project section
   font-size: 12px;
 }
 
+.col-md-6.Education_1 { 
+  margin-left: 0px;
+  margin-top: 0px; 
+}
+.col-md-6.Education_2 { 
+  margin-left: 0px;
+  margin-top: 40px; 
+}
+
 .col-md-6.Education_3 { 
-  margin-left: -1180px;
-  margin-top: 800px; 
+  margin-left: 0px;
+  margin-top: 40px; 
 }
 
 .col-md-6.Education_4 { 
-  margin-top: 400px; 
+  margin-top: 40px; 
+}
+
+#Aspirations-education{ 
+  font-size: 25px; 
+  margin-top: -10px; 
+  margin-bottom: 20px;
 }
 
 /*=================================================================

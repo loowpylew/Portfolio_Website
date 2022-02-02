@@ -895,11 +895,6 @@ div.maintitle h1 > span.color{
   margin-top: -5px;
 }
 
-.about-2 .content-block .media i {
-  font-size: 30px;
-  color: #455de0e3;
-}
-
 .about-2 .content-block .media h4 {
   font-size: 20px;
   font-weight: 200;
@@ -1316,6 +1311,12 @@ Project section
 
 .member-meta span {
   font-size: 12px;
+}
+
+#Aspirations-education{ 
+  font-size: 50px; 
+  margin-top: -10px; 
+  margin-bottom: 20px;
 }
 
 .col-md-6.Education_3 { 
