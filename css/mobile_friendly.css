@@ -843,35 +843,6 @@ div.maintitle h1 > span.color{
 .future-para p{ 
   font-family: "Gorgia";
 }
-/*=================================================================
-  About us 2 section
-==================================================================*/
-
-#Lewis {
-  margin-top: 20px;
-  margin-left: 360px; 
-}
-
-#Aspirations { 
-  font-size: 50px; 
-  margin-top: -10px; 
-  margin-bottom: 20px;
-}
-
-.media.future-ideas .pull-left > img{
-  margin-left: 110px; 
-  
-}
-
-.media-body.future-ideas > h4 {
-  margin-left: 0px;
-  
-}
-.media-body.future-ideas > p{ 
-  margin-left: 0px;
-  
-}
-
 
 /*=================================================================
  Call To Action 2

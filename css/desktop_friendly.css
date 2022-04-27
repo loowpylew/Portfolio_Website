@@ -839,66 +839,6 @@ div.maintitle h1 > span.color{
   font-family: "Gorgia";
 }
 
-/*=================================================================
-  About us 2 section
-==================================================================*/
-
-#Lewis {
-  margin-top: 20px;
-  margin-left: 360px; 
-}
-
-#Aspirations { 
-  font-size: 50px; 
-  margin-top: -10px; 
-  margin-bottom: 20px;
-}
-
-.col-md-6.padding-0 > img{
-  width: 800px;
-  height: 800px; 
-  margin-top: -150px; 
-  margin-left: 50px;
-}
-
-.about-2 .content-block {
-  padding: 40px;
-  margin-left: -70px;
-}
-
-.about-2 .content-block p{
-  font-family: "Georgia";
-  margin-top: 10px;
-}
-
-.col-md-6{
-  margin-top: 20px;
-  margin-left: 0px;
-}
-
-.col-md-6-2{
-  margin-left: -100px; 
-  margin-right: 100px; 
-  margin-top: 18px; 
-}
-
-.about-2 .content-block .media {
-  margin-top: 25px;
-  margin-left: -40px; 
-}
-
-.about-2 .content-block .media .pull-left {
-  padding-right: 15px;
-}
-
-.about-2 .content-block .media .pull-left > img {
-  margin-top: -5px;
-}
-
-.about-2 .content-block .media h4 {
-  font-size: 20px;
-  font-weight: 200;
-}
 
 
 /*=================================================================
